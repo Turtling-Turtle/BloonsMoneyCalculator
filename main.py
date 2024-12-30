@@ -16,7 +16,7 @@ while True:
     start_round = int(input("Enter Start Round: "))
     end_round = int(input("Enter End Round: "))
     cash_total = 0
-    if end_round - 1 == start_round:
+    if end_round == start_round:
         print(f"You will make a total of ${rounds[start_round].money_in_round:,} on round {end_round}")
         continue
 
